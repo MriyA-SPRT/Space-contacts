@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AboutProjectButton : MonoBehaviour
+public class SettingsButton : MonoBehaviour
 {
     public void onClickStart()
     {
-        SceneManager.LoadScene("AboutGame", LoadSceneMode.Single);
+        SceneManager.LoadScene("SettingsScreen", LoadSceneMode.Single);
     }
 }
